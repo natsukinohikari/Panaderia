@@ -1,0 +1,48 @@
+/* Hoja de estilos del blog */
+
+nav, footer {
+    background-color: #bf8a3d;
+}
+
+.carousel-inner{
+    max-height: 750px;
+    height: 100%;
+    width: 100%;
+}
+
+#dropdown{
+    background-color: brown;
+}
+#dropdown a {
+    color: white;
+}
+
+#dropdown a:hover {
+    background-color: #bf8a3d;
+}
+
+/* Zona central */
+#centro {
+    background-color: rgba(128,64,0,.5);
+}
+#fila {
+    margin: 2em 0.5em;
+    padding: .4em;
+}
+#img {
+    width: 500px;
+    height: 400px;
+}
+
+#central {
+    text-align: center;
+}
+
+#central h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+h3 {
+    border-bottom: 3px solid brown;
+    padding: 2em 0;
+}
