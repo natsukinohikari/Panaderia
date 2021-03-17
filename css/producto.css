@@ -1,0 +1,44 @@
+/* Hola de estilos para productos.html */
+section {
+    margin: 1.5em 0;
+    padding: 1em;
+}
+
+article {
+    display: flex;
+    flex: column;
+    margin: 1em;
+}
+
+h1 {
+    margin-top: 1em;
+    color: chocolate;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Disposición del texto */
+article .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2em;
+}
+/* Color de la seccion con opacidad */
+.art {
+    background-color: rgba(128, 64, 0, .5);
+}
+
+/* Especificaciones de las imágenes */
+#img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: gray 5px;
+}
+
+/* Tamaño y estilo de la letra */
+h2 {
+    font-size: 20px;
+    color: brown;
+}

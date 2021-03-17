@@ -5,28 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palau</title>
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/producto.css" />
+    <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 <body>
+    <!-- Cabecera de la página -->
     <header>
         <nav>
           <a href="index.html" id="logo"></a>
           <ul>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog.html">Próximamente</a></li>
           </ul>
         </nav>
       </header>
 
-      <footer>
+      <h1>PRODUCTOS</h1>
+
+      <!-- Sección donde pondremos imágenes y texto identificativo a cada imagen -->
+      <section>
+        <article class="art">
+          <a href="panes.html"><img id="img" src="imagenes/panes.jpg" alt=""></a>
+          <div class="texto">
+            <h2>Pan artesano</h2>
+            <h2>Pan normal</h2>
+            <h2>Baguettes</h2>
+          </div>
+        </article>
+        <article class="art">
+          <a href="especialidades.html"><img id="img" src="imagenes/especialidades.jpg" alt=""></a>
+          <div class="texto">
+            <h2>Magdalenas</h2>
+            <h2>Croissant</h2>
+            <h2>Tartas</h2>
+          </div>
+        </article>
+      </section>
+
+      <!-- Footer de la página-->
+    <footer>
         <div id="container">
-			<div class="uno">
-				<p><span>Contacto</span></p>
-				<p>Panadería Palau</p>
-                <ul>
-                    <li><a href="#">Política de Privacidad</a></li>
-                    <li><a href="#">Copyright</a></li>
-                </ul>
-            </div>
+          <div class="uno">
+            <p><span>Contacto</span></p>
+            <p>Panadería Palau</p>
+            <p>C/Ronda de Don Bosco, 23 Bajo</p>
+            <p>Email: papalau@gmail.com</p>
+            <p>Teléfono: 986742358</p>
+          </div>
+          <div class="dos">
+            <ul>
+              <li><a href="#">Política de Privacidad</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Aviso Legal</a></li>
+            </ul>
+          </div>
         </div>
       </footer>
 </body>
