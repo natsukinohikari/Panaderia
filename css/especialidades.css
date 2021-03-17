@@ -1,0 +1,92 @@
+/* Hola de estilos para las especialidades y los panes */
+
+section {
+    margin: 1.5em 0;
+    padding: 1em;
+}
+
+article {
+    display: flex;
+    flex: column;
+    margin: 1em;
+}
+
+h1 {
+    margin-top: 1em;
+    color: chocolate;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Disposición del texto */
+article .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2em;
+}
+
+/* Color de la seccion con opacidad */
+.art {
+    background-color: rgba(128, 64, 0, .5);
+}
+
+/* Especificaciones de las imágenes */
+#img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: gray 5px;
+}
+
+.boton {
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 6px;
+    background-color: brown;
+}
+
+.boton:hover {
+    background-color: #bf8a3d;
+}
+
+/* Tamaño y estilo de la letra */
+h2 {
+    font-size: 20px;
+    color: brown;
+}
+
+/* Media query para dispositivos de máximo 779px */
+@media (max-width: 779px) {
+
+    /* Disposicion de los articulos */
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5em;
+        margin-left: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article .texto {
+        display:flex;
+        align-items: center;
+    }
+
+    .boton {
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    article h2 {
+        padding: 0.4em;
+    }
+}
