@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palau</title>
     <link rel="stylesheet" href="css/header_footer.css" />
-    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/especialidades.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html" id="logo"></a></li>
-            <li><<a href="productos.html">Productos</a>/li>
+    <!-- Cabecera de la página -->
+    <header>
+        <nav>
+          <a href="index.html" id="logo"></a>
+          <ul>
+            <li><a href="productos.html">Productos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="blog.html">Próximamente</a></li>
-        </ul>
-    </nav>
-
-    <h1>ESPECIALIDADES</h1>
+          </ul>
+        </nav>
+      </header>
+  
+      <h1>ESPECIALIDADES</h1>
 
     <!-- Sección donde se colocarán los diversos tipos de panes con un texto especificativo -->
     <section>
       <article class="art">
-        <img id="img" src="imagenes/rosquillas.jpg" alt="">
+        <img id="img" src="imagenes/magnadela.jpg" alt="">
         <div class="texto">
-          <h2>ROSQUILLAS 0.45€</h2>
+          <h2>MAGDALENAS <span class="precio">0.45€</span></h2>
           <p>Nuestras magdalenas con pepitas de chocolate son un producto que no defrauda a aquellos que la llevan. Su exquisitez hace que sea un aperitivo excelente para los niños en los descansos de la escuela</p>
           <form action="">
             <input type="submit" value="Añadir al carrito" class="boton">
@@ -34,9 +38,9 @@
         </div>
       </article>
       <article class="art">
-        <img id="img" src="imagenes/valencianas.jpg" alt="">
+        <img id="img" src="imagenes/cruasan.jpg" alt="">
         <div class="texto">
-          <h2>VALENCIANAS 0.85€</h2>
+          <h2>CROISSANTS <span class="precio">0.85€</span></h2>
           <p>Hacemos croissants para que puedas acompañar en el desayuno al café, colacao. Cualquier cosa con croissant queda delicioso</p>
           <form action="">
             <input type="submit" value="Añadir al carrito" class="boton">
@@ -44,9 +48,9 @@
         </div>
       </article>
       <article class="art">
-        <img id="img" src="imagenes/barquillos.jpg" alt="">
+        <img id="img" src="imagenes/tarta.jpg" alt="">
         <div class="texto">
-          <h2>BARQUILLOS 2.25€</h2>
+          <h2>TARTAS <span class="precio">2.25€</span></h2>
           <p>La especialidad de la casa es la increíble tarta de 3 chocolates. Hecha a medida para todos los gustos, desde un paladar gustoso y sabroso hasta uno más refinado, sin azúcar y sin lactosa</p>
           <form action="">
             <input type="submit" value="Añadir al carrito" class="boton">
@@ -54,25 +58,24 @@
         </div>
       </article>
     </section>
-
-        <!-- Footer de la página-->
-        <footer>
-            <div id="container">
-                    <div class="uno">
-                        <p><span>Contacto</span></p>
-                      <p>Panadería Palau</p>
-                <p>C/Ronda de Don Bosco, 23 Bajo</p>
-                <p>Email: papalau@gmail.com</p>
-                <p>Teléfono: 986742358</p>
-                    </div>
-              <div class="dos">
-                <ul>
-                  <li><a href="#">Política de Privacidad</a></li>
-                  <li><a href="#">Política de Cookies</a></li>
-                  <li><a href="#">Aviso Legal</a></li>
-                </ul>
-                  </div>
-            </div>
-          </footer>
+      <!-- Footer de la página-->
+      <footer>
+        <div id="container">
+          <div class="uno">
+            <p><span>Contacto</span></p>
+            <p>Panadería Palau</p>
+            <p>C/Ronda de Don Bosco, 23 Bajo</p>
+            <p>Email: papalau@gmail.com</p>
+            <p>Teléfono: 986742358</p>
+          </div>
+          <div class="dos">
+            <ul>
+              <li><a href="#">Política de Privacidad</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Aviso Legal</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
