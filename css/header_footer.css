@@ -1,0 +1,141 @@
+/* Hoja de estilos para la cabecera y footer */
+
+/* Formato del header */
+header {
+    background-color: #bf8a3d;
+}
+
+/* Logo */
+#logo {
+    background-image: url("../imagenes/logo.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+/* Aspectos generales del navegador */
+nav {
+    padding: 0.05em;
+}
+
+/* Lista del nav */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: .3em 1em;
+}
+/* Estilos de los enlaces del nav */
+nav ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+/* Estilo al estar encima del enlace */
+nav ul li a:hover {
+    background: brown;
+    color: white;
+}
+
+/* Estilos para el footer */
+
+footer {
+    margin-top: 1em;
+    padding: 1em 0;
+
+    height: auto;
+    width: 100%;
+    background-color: #bf8a3d;
+}
+
+/* Disposición de los elementos del footer */
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Aspectos de la primera caja */
+.uno {
+    padding: 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uno p {
+    align-items: center;
+}
+
+.uno p span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Aspectos de la segunda caja */
+.dos {
+    padding: 0.05em;
+}
+
+.dos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dos ul li {
+    padding: .3em 1em;
+}
+
+.dos ul li a {
+     color: black;
+     display: block;
+     text-decoration: none;
+}
+
+.dos ul li a:hover {
+    color: brown;
+}
+
+/* Media query para dispositivos de al menos 780px */
+@media screen and (min-width: 780px) {
+    /* Disposicion del nav */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* Disposición de los elementos de la lista del nav */
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+}
+
+/* Media query para dispositivos de máximo 779px */
+@media (max-width: 779px) {
+
+    /* Disposicion del nav */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Disposición de los elementos del footer */
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container p {
+        padding: 0.2em;
+    }
+}
