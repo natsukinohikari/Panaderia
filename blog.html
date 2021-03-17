@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="productos.html">Productos <span class="sr-only">(current)</span></a>
+              <a class="nav-link" data-toggle="popover" title="Productos" data-content="Vea los productos" href="productos.html">Productos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link" data-toggle="tooltip" title="Contacto" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
@@ -51,5 +51,9 @@
         </div>
       </div>
     </footer>
+    <script>
+        $('[data-toggle="tooltip"]').tooltipes(); 
+        $('[data-toggle="popover"]').popover();
+      </script>
   </body>
 </html>
