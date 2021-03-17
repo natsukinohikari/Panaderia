@@ -1,0 +1,12 @@
+/* Formato para toda la página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del cuerpo */
+body {
+    background-color: white;
+    font-family: Verdana;
+}
+
