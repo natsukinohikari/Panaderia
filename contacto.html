@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palau</title>
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
     <!-- Cabecera de la página -->
@@ -20,7 +23,46 @@
         </nav>
       </header>
 
-
+      <h1>CONTACTO</h1>
+      <!-- Sección donde irá un formulario de contacto con diversas opciónes -->
+      <section>
+          <p>¿Tienes alguna sugerencia sobre nuevos productos?</p>
+          <p>¿Quieres realizar alguna reserva o tienes alguna pregunta? <span>Contáctanos</span></p>
+      </section>
+      <div class="container">
+          <form>
+              <ul class="externo">
+                  <li>
+                      <label for="nombre">Nombre</label> 
+                      <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                  </li>
+                  <li>
+                      <label for="correo">Correo</label>
+                      <input type="text" name="correo" id="correo" placeholder="Escribe el correo">
+                  </li>
+                  <li>
+                      <p>Motivo</p>
+                      <ul class="interno">
+                          <li>
+                              <label for="prod">Producto</label>
+                              <input type="radio" id="prod" name="prod" value="Producto">
+                          </li>
+                          <li>
+                              <label for="sug">Sugerencia</label>
+                              <input type="radio" id="duda" name="duda" value="Sugerencia/Duda">
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <label for="duda">Sugerencia/Duda</label>
+                      <textarea rows="10" cols="50" name="sug" id="sug" placeholder="Escribe aquí"></textarea>
+                  </li>
+                  <li>
+                      <input type="submit" value="Enviar" class="boton">
+                  </li>
+              </ul>
+          </form>
+      </div>
 
       <!-- Footer de la página-->
     <footer>
